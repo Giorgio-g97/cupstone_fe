@@ -29,7 +29,7 @@ const Home = () => {
     <div>
       <h2 className="mt-20 p-3">Lista Aziende</h2>
       <br></br>
-      <div className="companies grid grid-cols-1 sm:grid-cols-2 w-full">
+      <div className="companies flex sm: flex-wrap sm: gap-3 w-full">
         {companies &&
           companies.companies.map((company) => {
             return <CompanyDetails key={company._id} company={company} />;

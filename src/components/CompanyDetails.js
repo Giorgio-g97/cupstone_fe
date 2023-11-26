@@ -16,7 +16,7 @@ const CompanyDetails = ({ company }) => {
     };
 
   return (
-    <div className="p-5 flex justify-around">
+    <div className="w-[350px] bg-slate-50 drop-shadow-lg rounded-lg mx-8 p-5 flex justify-between">
       <div className="flex">
         <div>
           <img className="rounded-full w-20 sm: w-10" src={company.cover} />
