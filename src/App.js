@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 import ProtectedRoutes from "./middlewares/ProtectedRoutes";
 import NavbarIndie from './components/Navbarindie'
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             
           </Routes>
         </div>
+        <Footer />
       </BrowserRouter>
     </h1>
   );
