@@ -51,7 +51,7 @@ const Login = () => {
   //  }
 
   return (
-    <div className="mt-20 flex justify-center  h-screen w-full">
+    <div className="mt-20 flex justify-center h-[1100px] w-full">
       <form onSubmit={onSubmit} className="w-[450px] items-center p-20 flex flex-col gap-1">
         <label className="m-3">Your Email</label>
         <input
