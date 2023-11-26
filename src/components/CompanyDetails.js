@@ -16,7 +16,7 @@ const CompanyDetails = ({ company }) => {
     };
 
   return (
-    <div className="p-5 flex justify-between">
+    <div className="p-5 flex justify-around">
       <div className="flex">
         <div>
           <img className="rounded-full w-20 sm: w-10" src={company.cover} />
@@ -28,7 +28,7 @@ const CompanyDetails = ({ company }) => {
         </div>
       </div>
       <div>
-        <button onClick={delCompanies} className="sm: text-sm">Elimina</button>
+        <button onClick={delCompanies} className="w-20 text-black rounded-md bg-red-500 sm: text-sm">Elimina</button>
       </div>
     </div>
   );
