@@ -52,7 +52,7 @@ const Login = () => {
 
   return (
     <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 h-screen w-full">
-      <form onSubmit={onSubmit} className="p-20 flex flex-col gap-1">
+      <form onSubmit={onSubmit} className="w-screen p-20 flex flex-col gap-1">
         <label className="m-3">Your Email</label>
         <input
           className="sm: text-sm m-3 block w-100 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-300 sm:text-md sm:leading-6"
